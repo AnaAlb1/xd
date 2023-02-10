@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COMPROBANTES FISCALES DIGITALES POR INTERNET</title>
+    <!-- fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- style -->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/app.css">
+    <link rel="stylesheet" href="./css/spinner.css">
+</head>
+<body>
+<section class="hero__grid">
+
+    <div class="hero__information hero__container">
+        <!-- encabezado -->
+        <header class="header__title">
+            <a href="#" class="header__link">
+                <img src="./img/logo.png" alt="Logo" class="header__img" loading="lazy">
+            </a>
+            <h1 class="header__heading"> <span class="header__span">¡Bienvenido!</span> En Autoespecialidades Franco estamos para atenderte.</h1>
+        </header>
+        <!-- formulario -->
+        <form action="" class="form" >
+            <div class="campo">                    
+                <label for="" class="form__label">Cliente: </label>
+                <input type="text" class="form__input" name="rfc" id="rfc" placeholder="XAXX">
+            </div>
+            <div class="campo">                    
+                <label for="" class="form__label">Serie: </label>
+                <input type="text" class="form__input" name="serie" id="serie" placeholder="A">
+            </div>
+            <div class="campo">                    
+                <label for="" class="form__label">Folio: </label>
+                <input type="text" class="form__input" name="folio" id="folio" placeholder="132014">
+            </div>
+            <div class="resultado"></div>
+
+            <div class="spinner">
+                <div class="sk-circle1 sk-child"></div>
+                <div class="sk-circle2 sk-child"></div>
+                <div class="sk-circle3 sk-child"></div>
+                <div class="sk-circle4 sk-child"></div>
+                <div class="sk-circle5 sk-child"></div>
+                <div class="sk-circle6 sk-child"></div>
+                <div class="sk-circle7 sk-child"></div>
+                <div class="sk-circle8 sk-child"></div>
+                <div class="sk-circle9 sk-child"></div>
+                <div class="sk-circle10 sk-child"></div>
+                <div class="sk-circle11 sk-child"></div>
+                <div class="sk-circle12 sk-child"></div>
+            </div>
+
+            <div class="campo">
+                <input type="submit" value="Descargue su factura" class="form__submit">
+            </div>
+        </form>
+        
+    </div>
+
+    <div class="hero__images">
+        <div class="hero__card hero__container">
+            <h2 class="title">Los datos se encuentra en su ticket de compra</h2>
+            <article class="hero__Article">
+                <p class="paragraph">Descargue su factura electronica por Internet</p>
+                <p class="paragraph"><span class="paragraph__span">Cliente : </span> XAXX010101000</p>
+                <p class="paragraph"><span class="paragraph__span">Serie : </span> A</p>
+                <p class="paragraph"><span class="paragraph__span">Folio : </span>132014</p>
+                <a href="https://www.aefranco.com/" class="hero__bton">Ir a la pagina anterior</a>
+            </article>          
+        </div>
+    </div>
+</section>    
+<script src="./js/app.js"></script>
+</body>
+</html>
